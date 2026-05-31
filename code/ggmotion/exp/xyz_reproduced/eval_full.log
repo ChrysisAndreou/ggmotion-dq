@@ -1,0 +1,16 @@
+>>> Eval: GGMotion-XYZ, --manner all, full test set (7434 samples)
+>>> Checkpoint: exp/xyz_reproduced/cmu_best_20.823_19.pt
+>>> Epoch: 19 | pri_loss: 0.01243261714392165 | aux_loss: 0.00936492207900897
+>>> Evaluated locally on M1 Max (CPU), 2026-03-15
+>>> Time: 10m28s
+
+milliseconds       |   80    |   160   |   320   |   400   |   avg   |
+basketball         |  9.120  | 16.930  | 35.668  | 46.618  | 27.084  |
+basketball_signal  |  2.376  |  4.299  |  9.767  | 13.332  |  7.443  |
+directing_traffic  |  4.506  |  9.102  | 21.804  | 29.492  | 16.226  |
+jumping            | 12.484  | 26.314  | 57.028  | 72.545  | 42.093  |
+running            |  9.779  | 15.516  | 25.629  | 31.278  | 20.550  |
+soccer             |  9.337  | 16.696  | 33.393  | 42.814  | 25.560  |
+walking            |  5.741  |  9.132  | 14.888  | 18.219  | 11.995  |
+washwindow         |  4.378  |  8.770  | 21.043  | 28.346  | 15.634  |
+avg                |  7.215  | 13.345  | 27.403  | 35.331  | 20.823  |

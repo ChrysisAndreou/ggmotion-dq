@@ -1,0 +1,21 @@
+Reading subject test, action basketball, subaction 1
+Reading subject test, action basketball_signal, subaction 1
+Reading subject test, action directing_traffic, subaction 1
+Reading subject test, action jumping, subaction 1
+Reading subject test, action running, subaction 1
+Reading subject test, action soccer, subaction 1
+Reading subject test, action walking, subaction 1
+Reading subject test, action washwindow, subaction 1
+Model: GGMotion-DQPose (0.622M params)
+Checkpoint: exp/dqposemindirect_retrained/cmu_best_24.595_22.pt
+Loaded (epoch 22, pri_loss 0.0157, aux_loss 0.0121)
+milliseconds       |   80    |   160   |   320   |   400   |   avg   |
+basketball         | 10.546  | 20.019  | 42.528  | 54.872  | 31.991  |
+basketball_signal  |  3.046  |  5.210  | 11.250  | 15.004  |  8.627  |
+directing_traffic  |  5.612  | 11.022  | 25.870  | 34.607  | 19.278  |
+jumping            | 13.998  | 28.343  | 59.849  | 75.385  | 44.393  |
+running            | 11.339  | 19.378  | 32.836  | 41.901  | 26.364  |
+soccer             | 10.917  | 20.216  | 41.831  | 53.805  | 31.692  |
+walking            |  6.680  | 10.883  | 20.460  | 26.051  | 16.019  |
+washwindow         |  5.281  | 10.431  | 24.796  | 33.082  | 18.398  |
+avg                |  8.427  | 15.688  | 32.428  | 41.838  | 24.595  |

@@ -1,0 +1,31 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.log
+
+# Training artifacts
+wandb/
+
+# Model checkpoints (excluded by default)
+*.pt
+*.pth
+*.ckpt
+
+# Allow only the final thesis checkpoints (clone-and-go reproducibility)
+!code/ggmotion/exp/xyz_reproduced/cmu_best_20.823_19.pt
+!code/ggmotion/exp/dqposemindirect_retrained/cmu_best_24.595_22.pt
+
+# Allow final evaluation logs used by the thesis evidence chain
+!code/ggmotion/exp/xyz_reproduced/cmu_eval.log
+!code/ggmotion/exp/xyz_reproduced/eval_full.log
+!code/ggmotion/exp/dqposemindirect_retrained/cmu_eval.log
+!code/ggmotion/exp/dqposemindirect_retrained/eval_full.log
+
+# Personal context (not for git)
+personal_context.md
